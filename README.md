@@ -61,6 +61,43 @@ O objetivo desta Sprint é desenvolver uma versão funcional do aplicativo mobil
 
 ---
 
+## Telas do Aplicativo
+
+As telas abaixo mostram a versão funcional do app desenvolvida na Sprint 2, seguindo o protótipo da Sprint 1 e utilizando dados mockados.
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center">
+      <strong>Entrada do Operador</strong><br/>
+      <img src="./assets/screens/entrada.PNG" width="180"/>
+    </td>
+    <td align="center">
+      <strong>Dashboard</strong><br/>
+      <img src="./assets/screens/dashboard.PNG" width="180"/>
+    </td>
+    <td align="center">
+      <strong>Registrar Ocorrência</strong><br/>
+      <img src="./assets/screens/registrar.PNG" width="180"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <strong>Mapa de Trechos</strong><br/>
+      <img src="./assets/screens/mapa.PNG" width="180"/>
+    </td>
+    <td align="center">
+      <strong>Histórico</strong><br/>
+      <img src="./assets/screens/historico.PNG" width="180"/>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+---
+
 ## Funcionalidades Implementadas
 
 ### Acesso como operador
@@ -248,7 +285,13 @@ challenge-motiva-verde-sprint2/
 │   └── historico.tsx
 │
 ├── assets/
-│   └── logo-simbolo.png
+│   ├── logo-simbolo.png
+│   └── screens/
+│       ├── entrada.png
+│       ├── dashboard.png
+│       ├── registrar.png
+│       ├── mapa.png
+│       └── historico.png
 │
 ├── src/
 │   ├── components/
